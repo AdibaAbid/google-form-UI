@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Google Sign up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Logo" height="100">
+    </header>
+    <main>
+        <section class="form">
+            <h1>Create your Google Account</h1>
+            <form action="#">
+                <div>
+                    <input type="text" name=Fname required autocomplete="off" autofocus="on">
+                    <label class="Fname" for="Fname">First Name</label>
+                </div>
+                <div>
+                    <input class="lastName" type="text" name=Lname required autocomplete="off">
+                    <label class="Lname" for="Lname">Last Name</label>
+                </div>
+                <div class="username-div">
+                    <input class="username-input" type="email" name="username" required autocomplete="off">
+                    <label class="username" for="username">Username</label>
+                    <span>@gmail.com</span>
+                </div>
+                <div class="username-div">
+                    <p>You can use letters, numbers & periods
+                        <br>
+                        <a href="#">Use my Current email address instead</a>
+                    </p>
+                </div>
+
+                <div class="pass-div">
+                    <input type="password" name="Password" required minlength="8">
+                    <label for="Password" class="pass">Password</label>
+                </div>
+
+                <div class="pass-div">
+                    <input type="password" name="Confirm" class="confirm-inline" required>
+                    <label for="Confirm" class="confirmpass">Confirm Password</label>
+                    <i class="fas fa-eye-slash"></i>
+                </div>
+                <div class="username-div">
+                    <p>Use 8 or more characters with a mix of letters, numbers & symbols</p>
+                    <button>Sign in instead</button>
+                    <button type="submit" id="blue">Next</button>
+                </div>
+            </form>
+        </section>
+        <section class="image">
+            <img src="images/account.svg" alt="Side Badge">
+            <h2>One account. All of Google <br> working for you.</h2>
+        </section>
+    </main>
+
+</body>
+
+</html>

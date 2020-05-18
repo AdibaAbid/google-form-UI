@@ -1,0 +1,222 @@
+body {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid grey;
+    padding-bottom: 5px;
+    margin-left: 13%;
+    width: 80%;
+    align-items: center;
+}
+
+
+/*  Icon styling */
+
+.svg-inline--fa {
+    float: right;
+    position: relative;
+    top: -23px;
+    left: 35px;
+}
+
+p {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+div {
+    display: inline-block;
+}
+
+.image img {
+    align-items: center;
+    height: 280px;
+}
+
+.image h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #222;
+    font-weight: 200;
+}
+
+button {
+    background-color: transparent;
+    color: #1a73e8;
+    border-radius: 2px;
+    padding: 8px;
+    border: none;
+}
+
+button:hover {
+    background-color: #f6fafe;
+}
+
+#blue {
+    border: none;
+    background-color: #1a73e8;
+    color: white;
+    padding: 8px 25px;
+    float: right;
+}
+
+#blue:hover {
+    background-color: #3566b8;
+}
+
+span {
+    float: right;
+    position: relative;
+    top: -25px;
+    right: 126px;
+    font-size: 14px;
+    color: #222;
+}
+
+
+/* form section start */
+
+form {
+    position: relative;
+}
+
+input {
+    margin-left: 10px;
+    margin-top: 20px;
+    position: relative;
+    padding: 8px;
+    border-radius: 5px;
+    border: .5px solid #794f4f;
+    outline: none;
+}
+
+
+/* input fields styling */
+
+.Fname {
+    transition: .5s;
+    position: absolute;
+    left: 14px;
+    top: 28px;
+    font-size: 14px;
+    color: #5f6368;
+    pointer-events: none;
+    background-color: white;
+}
+
+.Lname {
+    transition: .5s;
+    position: relative;
+    right: 180px;
+    top: 0;
+    font-size: 14px;
+    color: #5f6368;
+    pointer-events: none;
+    background-color: white;
+}
+
+.username {
+    transition: .5s;
+    position: absolute;
+    left: 18px;
+    top: 80px;
+    font-size: 14px;
+    color: #5f6368;
+    pointer-events: none;
+    background-color: white;
+}
+
+.username-div {
+    display: block;
+    width: 85%;
+    margin-bottom: 20px;
+}
+
+.username-input {
+    width: 72%;
+    display: block;
+}
+
+.pass {
+    transition: .5s;
+    position: relative;
+    left: 17px;
+    top: -26px;
+    font-size: 14px;
+    color: #5f6368;
+    pointer-events: none;
+    background-color: white;
+}
+
+.pass-div {
+    width: 33%;
+}
+
+.confirmpass {
+    left: 17px;
+    transition: .5s;
+    position: relative;
+    right: 0;
+    top: -26px;
+    font-size: 14px;
+    color: #5f6368;
+    pointer-events: none;
+    background-color: white;
+}
+
+
+/* focus effect */
+
+input[type="text"]:focus~label,
+input[type="text"]:valid~label {
+    color: #3566b8;
+    top: 14px;
+    left: 19px;
+    font-size: 12px;
+}
+
+input[type="text"]:focus,
+input:valid,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border: 2px solid #3566b8;
+}
+
+input[name="Lname"]:focus~label,
+input[name-="Lname"]:valid~label {
+    color: #3566b8;
+    top: -17px;
+    left: -180px;
+    font-size: 12px;
+}
+
+input[type="email"]:focus~label,
+input[type="email"]:valid~label {
+    color: #3566b8;
+    top: 67px;
+    left: 21px;
+    font-size: 12px;
+}
+
+input[type="password"]:focus~label,
+input[type="password"]:valid~label {
+    color: #3566b8;
+    top: -45px;
+    font-size: 12px;
+}
